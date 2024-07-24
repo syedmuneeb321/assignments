@@ -1,4 +1,4 @@
-
+import math
 # Age Assignments Based on the Riddle
 
 Anton: int  = 21
@@ -76,7 +76,8 @@ print("\n")
 # Calculate Powers of Numbers.
 base:int = 3
 exponent:int = 4
-print("power result:",base**exponent)
+# print("power result:",base**exponent)
+print("power result:",round(math.pow(base,exponent)))
 print("\n")
 
 ## ============================================================================= ## 
