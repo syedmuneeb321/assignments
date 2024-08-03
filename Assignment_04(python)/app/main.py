@@ -51,7 +51,8 @@ def main() -> None:
     # Delete a number in list 
     numbers: list[int] = [1, 2, 3, 4, 5]
     print(numbers)
-    del numbers[2]
+    # del numbers[2] 
+    numbers.remove(3)
     print(numbers)
     print("\n")
 
