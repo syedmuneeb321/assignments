@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["syedmuneeb321 <130203424+syedmuneeb321@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+termcolor = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
